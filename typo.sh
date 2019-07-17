@@ -1,3 +1,5 @@
+#this code requires a text to correct the uppercase-lowercase mistakes.
+
 #!/bin/bash
 echo "Write a text to fix typos"
 read texto
