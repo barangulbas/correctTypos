@@ -1,3 +1,4 @@
+# this code takes text from specified txt file to correct uppercase-lowercase typo mistakes. Then inserts the corrected text to a new txt file. 
 #!/bin/bash
 texto=$(cat text.txt)
 #echo $texto
