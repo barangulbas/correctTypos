@@ -27,4 +27,4 @@ do
     
 done <<< "$texto"
 echo ${FinalArray[@]}
-{ printf '%s\n' "${FinalArray[@]}"; } > new.txt #new.txt exist in the same file with typo.sh
+{ printf '%s' "${FinalArray[@]}"; } > new.txt #new.txt exist in the same file with typo.sh
